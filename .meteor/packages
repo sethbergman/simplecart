@@ -11,3 +11,7 @@ reactioncommerce:bootstrap-theme
 reactioncommerce:reaction-accounts
 reactioncommerce:reaction-braintree
 reactioncommerce:reaction-shipping
+reactioncommerce:reaction-analytics
+reactioncommerce:reaction-stripe
+reactioncommerce:reaction-paypal
+reactioncommerce:core-theme
