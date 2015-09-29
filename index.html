@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Simplecart by sethbergman</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Simplecart</h1>
+        <h2>Shopping Cart made from Meteor and Nodejs</h2>
+        <a href="https://github.com/sethbergman/simplecart" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="reaction--" class="anchor" href="#reaction--" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reaction <a href="https://circleci.com/gh/reactioncommerce/reaction"><img src="https://circleci.com/gh/reactioncommerce/reaction-core.svg?style=svg" alt="Circle CI"></a> <a href="https://gitter.im/reactioncommerce/reaction?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/JoinChat.svg" alt="Gitter"></a>
+</h1>
+
+<p>Reaction is a modern reactive, real-time event driven ecommerce platform.</p>
+
+<p>Reaction is built with JavaScript, Meteor, Node.js and works nicely with Docker.</p>
+
+<p>See: Package Repository for Reaction</p>
+
+<h2>
+<a id="status" class="anchor" href="#status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Status</h2>
+
+<ul>
+<li>0.6.4 Master (Alpha, Stable)</li>
+<li>0.7.0 Development (Not Stable)</li>
+<li>0.8.0 Next Stable Release</li>
+</ul>
+
+<p>Currently good for contributing/observing progress, testing. It goes without saying that we're constantly refactoring, even things that are functionally done. We do not recommend using for production usage yet, unless you are very comfortable with the code, and aren't risk averse. There are still many parts in development!</p>
+
+<p>The Docker image is automatically built at the <a href="https://index.docker.io/u/ongoworks/">Ongo Works public Docker repo</a>, on any <code>master</code> repository changes. We're working on functionality to allow selectable Reaction/Docker images in the future.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<pre><code>Node.js and NPM are required. Install from http://nodejs.org/
+</code></pre>
+
+<p>To install Meteor + Reaction, and start the latest release:</p>
+
+<div class="highlight highlight-source-shell"><pre>curl https://install.meteor.com <span class="pl-k">|</span> /bin/sh
+git clone https://github.com/reactioncommerce/reaction.git
+<span class="pl-c1">cd</span> reaction <span class="pl-k">&amp;&amp;</span> git checkout master
+meteor</pre></div>
+
+<p>There is also an executable <a href="https://github.com/reactioncommerce/reaction/blob/development/bin/install">script that you run</a>. Additional installation options are in the <a href="https://github.com/reactioncommerce/reaction-core/blob/development/docs/installation.md">developer documentation</a>.</p>
+
+<p><em>Note: for windows installation you also need:</em></p>
+
+<ul>
+<li>OpenSSL</li>
+<li>Visual Studio 2008 redistributables</li>
+<li>Git + mysgit</li>
+<li>ImageMagick</li>
+</ul>
+
+<h2>
+<a id="roadmap" class="anchor" href="#roadmap" aria-hidden="true"><span class="octicon octicon-link"></span></a>Roadmap</h2>
+
+<p>As with all development, some items are ahead of schedule, and some are not. Here's how to get the details:</p>
+
+<p>For a high level review our roadmap, take a look at the vision page <a href="http://reactioncommerce.com/vision">Reaction Vision</a></p>
+
+<p>For grouping of development channels by feature see project milestones: <a href="https://github.com/reactioncommerce/reaction/milestones">https://github.com/reactioncommerce/reaction/milestones</a></p>
+
+<p>And finally for the kanban-esque, hardcore real time progress view, take a look our <a href="https://waffle.io/reactioncommerce/reaction">waffle board</a></p>
+
+<h2>
+<a id="developer-documentation" class="anchor" href="#developer-documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developer Documentation</h2>
+
+<p><a href="http://thoughts.reactioncommerce.com/how-to-get-involved-with-reaction-commerce/">Getting started guide</a></p>
+
+<p><a href="https://github.com/ongoworks/reaction-core/blob/master/docs/installation.md">Installation</a></p>
+
+<p><a href="https://github.com/ongoworks/reaction-core/blob/master/docs/conventions.md">Guidelines</a></p>
+
+<p><a href="https://github.com/ongoworks/reaction-core/blob/master/docs/methods.md">Methods</a></p>
+
+<p><a href="https://github.com/ongoworks/reaction-core/blob/master/docs/packages.md">Package Development</a></p>
+
+<p><a href="https://github.com/ongoworks/reaction-core/blob/master/docs/themes.md">Theme Development</a></p>
+
+<p><a href="https://github.com/ongoworks/reaction-core/blob/master/docs/i18n.md">i18n Translations</a></p>
+
+<p><a href="https://github.com/ongoworks/reaction-core/blob/master/docs/templates.md">Template Development</a></p>
+
+<h3>
+<a id="code-repositories" class="anchor" href="#code-repositories" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Repositories</h3>
+
+<p>Hey! Where's all the code!? Most of it is in the <a href="https://github.com/reactioncommerce/reaction-core/">reaction-core</a> package...</p>
+
+<p>We welcome pull requests to the latest <code>development</code> version branch.</p>
+
+<h1>
+<a id="feedback" class="anchor" href="#feedback" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feedback</h1>
+
+<p><strong>GitHub Issues</strong> on the <a href="https://github.com/reactioncommerce/reaction">Reaction</a> project are the best way to let us know about a feature request, or to report an issue.</p>
+
+<p>Join us on our <strong><a href="https://gitter.im/reactioncommerce/reaction">Gitter chat room</a></strong> to discuss, communicate, and share community support.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/sethbergman/simplecart/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/sethbergman/simplecart/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/sethbergman/simplecart"></a> is maintained by <a href="https://github.com/sethbergman">sethbergman</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
