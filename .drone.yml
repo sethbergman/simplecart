@@ -1,0 +1,8 @@
+image: meteor
+env:
+  - MONGO_URL=mongodb://{{mongoHost}}:{{mongoPort}}/test
+script:
+  - env
+  - meteor run --test
+services:
+  - mongodb
