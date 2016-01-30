@@ -1,7 +1,7 @@
 #Reaction Commerce
-[ ![Codeship Status for sethbergman/simplecart](https://codeship.com/projects/3b091840-8a42-0133-8d75-36a4d50c7855/status?branch=master)](https://codeship.com/projects/123423) [![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/reactioncommerce/reaction?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](http://159.203.85.24/api/badge/github.com/sethbergman/stackriot/status.svg?branch=master)](http://159.203.85.24/github.com/sethbergman/stackriot)
-[![Stories in Ready](https://badge.waffle.io/sethbergman/simplecart.svg?label=ready&title=Ready)](http://waffle.io/sethbergman/simplecart)
+[ ![Codeship Status for sethbergman/simplecart](https://codeship.com/projects/3b091840-8a42-0133-8d75-36a4d50c7855/status?branch=master)](https://codeship.com/projects/123423)
+[![Docker Repository on Quay](https://quay.io/repository/sethbergman/simplecart/status "Docker Repository on Quay")](https://quay.io/repository/sethbergman/simplecart)
+[![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/reactioncommerce/reaction?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Reaction is a modern reactive, real-time event driven ecommerce platform.
 
